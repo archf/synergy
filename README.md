@@ -1,4 +1,4 @@
-Role Name
+Synergy
 =========
 
 Install synergy from a package t role. The package is copied to `/opt/` on target host. It creates a synergy user group
