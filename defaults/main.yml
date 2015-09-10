@@ -1,0 +1,9 @@
+---
+# vars file for synergy
+
+synergy_binary_paths:
+  - /usr/bin/synergy
+  - /usr/bin/synergyd
+  - /usr/bin/synergyc
+  - /usr/bin/synergys
+  - /var/log/synergy.log
