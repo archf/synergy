@@ -1,7 +1,7 @@
 Synergy
 =========
 
-Install synergy from a package t role. The package is copied to `/opt/` on target host. It creates a synergy user group
+Install synergy from a package. The package is copied to `/opt/` on target host. It creates a synergy user group
 
 Requirements
 ------------
