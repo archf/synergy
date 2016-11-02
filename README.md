@@ -27,20 +27,20 @@ group. You should then append your user to it.
 Those variables from `vars/*.{yml,json}` are loaded dynamically during task
 runtime using the `include_vars` module.
 
+Variables loaded from `vars/Debian.yml`.
+
+```yaml
+# list of packages to install
+synergy_package: synergy-v1.7.4-stable-c734bab-Linux-x86_64.deb
+
+```
+
 Variables loaded from `vars/RedHat.yml`.
 
 ```yaml
 # list of packages to install
 
 synergy_package: synergy-v1.7.4-stable-c734bab-Linux-x86_64.rpm
-
-```
-
-Variables loaded from `vars/Debian.yml`.
-
-```yaml
-# list of packages to install
-synergy_package: synergy-v1.7.4-stable-c734bab-Linux-x86_64.deb
 
 ```
 
